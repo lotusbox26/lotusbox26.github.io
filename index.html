@@ -1,13 +1,48 @@
- <html lang="en"><head>
-    <meta charset="UTF-8">
-    <title>Lotus Box Games</title>
-  </head>
-  <body>
-    <main>
-        <h1>Welcome to Lotus Box Games</h1>
-      <a href="/policy.txt">Privacy</a>
-    </main>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lotus Box Games</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
+    body {
+      background: #060608;
+      color: #f0f0ff;
+      font-family: 'Share Tech Mono', monospace;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 32px;
+    }
 
-</body></html>
+    h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(3rem, 10vw, 7rem);
+      letter-spacing: 0.1em;
+      color: #fff;
+    }
+
+    h1 span { color: #e8ff00; }
+
+    a {
+      font-size: 0.7rem;
+      letter-spacing: 0.25em;
+      color: #555577;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    a:hover { color: #e8ff00; }
+  </style>
+</head>
+<body>
+  <h1>LOTUS <span>BOX</span> GAMES</h1>
+  <a href="/policy.txt">Privacy Policy</a>
+</body>
+</html>
